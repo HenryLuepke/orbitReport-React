@@ -1,3 +1,5 @@
+import './styling.css'
+
 function TableDisplay({ data }) {
   const satInfo = (props) => {
     return props.map((data, id) => 
